@@ -4,8 +4,9 @@ for i in a:
   final_text=final_text+" "+i
 print(final_text)
 print(final_text+"Basir")
-for i in final_text:
+list1=final_text.split(" ")
+for i in list1:
   if(i=="world"):
-    print(True)
+    print(True,i)
   else:
-    print(False)
+   print(False,i)
