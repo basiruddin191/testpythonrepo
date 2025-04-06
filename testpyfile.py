@@ -7,6 +7,6 @@ print(final_text+"Basir")
 list1=final_text.split(" ")
 for i in list1:
   if(i=="world"):
-    print(True,i)
+    print(True)
   else:
-   print(False,i)
+   print(False)
